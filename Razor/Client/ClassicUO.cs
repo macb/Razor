@@ -256,8 +256,6 @@ namespace Assistant
 
         public override void SetTitleStr( string str )
         {
-            return;
-            //TODO strip item/color codes from string.
             _setTitle( str );
         }
 
